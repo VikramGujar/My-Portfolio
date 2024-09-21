@@ -6,7 +6,10 @@ function App(){
     return(
         <div>
             <Header />
-            <Hero/>
+            <main>
+                <Hero/>
+            </main>
+            
         </div>
     );
 }

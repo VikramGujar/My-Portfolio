@@ -20,18 +20,18 @@ const ProfileCard = () => {
 
         {/* Eye-catching Heading */}
         <h3 className="text-xl text-blue-600 font-semibold text-center mb-6">
-          "Building Tomorrow's Web, Today!"
+          "Turning ideas into reality through code!"
         </h3>
 
         {/* Social Media Links */}
         <div className="flex justify-center space-x-4 text-gray-600">
-          <a href="https://github.com" target="_blank" rel="noreferrer">
+          <a href="https://github.com/VikramGujar" target="_blank" rel="noreferrer">
             <FaGithub className="w-6 h-6 hover:text-black hover:scale-110 transition-transform duration-300" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/vikram-gujar-vg/" target="_blank" rel="noreferrer">
             <FaLinkedin className="w-6 h-6 hover:text-blue-700 hover:scale-110 transition-transform duration-300" />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/vikram_gujar_vg/" target="_blank" rel="noreferrer">
         <FaInstagram className="w-6 h-6 relative z-10 transition duration-300 ease-in-out hover:text-pink-500" />
         </a>
 

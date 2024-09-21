@@ -12,8 +12,16 @@ body {
 
 /* TYPOGRAPHY */
 
+.headline-1 {
+    @apply max-w-max;
+    background: -webkit-linear-gradient(0deg,#fafafa,#02b7ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 .headline-1{
-    @apply text-5xl leading-tight font-semibold lg:text-[55px]
+    @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
 }
 
 /* UTILITIES */
