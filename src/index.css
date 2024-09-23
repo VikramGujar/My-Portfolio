@@ -121,3 +121,18 @@ body {
 .btn-secondary{
     @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80
 }
+
+
+/* FOOTER SECTION */
+
+footer {
+    padding: 3rem 0;
+    background-color: #1a202c;
+    color: #e2e8f0;
+}
+footer a {
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: #02b7ff; /* Sky blue hover effect */
+}
