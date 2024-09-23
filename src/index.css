@@ -11,11 +11,18 @@ body {
 }
 
 /* TYPOGRAPHY */
-.component-headings{
-    background: -webkit-linear-gradient(0deg,#fafafa,#02b7ff);
+.component-headings {
+    background: -webkit-linear-gradient(0deg, #fafafa, #02b7ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+    line-height: 1.2; 
+    padding-bottom: 0.2em;
+    display: inline-block; 
+    text-align: center;
+    width: 100%;
+  }
+  
+  
 
 
 .headline-1 {

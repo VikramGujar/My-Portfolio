@@ -13,11 +13,10 @@ const Header = () => {
                 <a href="#home" 
                 className='logo'
                 >
-                    <img src='/images/logo.png'
+                    <img src='/images/VG_LOGO.png'
                     width={40}
                     height={40}
                     alt="Vikram Logo" 
-                    className='bg-white' 
                      />
 
                 </a>
