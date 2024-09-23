@@ -7,7 +7,6 @@ const Footer = () => {
     <footer className="bg-zinc-900 py-12">
       <div className="container mx-auto px-6 lg:flex lg:justify-between lg:items-start">
         
-        {/* Left Side - Heading and Social Icons */}
         <div className="lg:w-1/3 mb-8 lg:mb-0">
           <h3 className="text-3xl font-semibold text-sky-500 mb-6">Let's Connect</h3>
           <div className="flex space-x-6">
@@ -23,21 +22,18 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Right Side - Contact Info */}
         <div className="lg:w-1/3 text-zinc-400 text-center lg:text-right">
           <p className="mb-2">Email: vikramgujar300@gmail.com</p>
           <p className="mb-6">Phone: +91 95770 14555</p>
           
-          {/* Simple Animated Element */}
           <div className="flex justify-center lg:justify-end">
-            <div className="rounded-full bg-sky-500 w-16 h-16 flex items-center justify-center animate-bounce">
-              <span className="material-symbols-outlined text-white text-3xl">work</span>
+            <div className="rounded-full bg-sky-500 w-24 h-24 flex items-center justify-center animate-bounce">
+              <span className="material-symbols-outlined text-white text-2xl">Thanks</span>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Footer Bottom - Copyright */}
       <div className="mt-12 border-t border-zinc-700 pt-6">
         <p className="text-center text-zinc-500">&copy; {new Date().getFullYear()} Vikram Gujar. All Rights Reserved.</p>
       </div>

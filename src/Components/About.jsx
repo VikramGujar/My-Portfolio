@@ -1,4 +1,3 @@
-// About.jsx
 import React from 'react';
 import Introduction from './Introduction';
 import ProfessionalJourney from './ProfessionalJourney';

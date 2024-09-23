@@ -10,7 +10,7 @@ body {
   @apply bg-zinc-900 text-zinc-50;
 }
 
-/* TYPOGRAPHY */
+/* Headings */
 .component-headings {
     background: -webkit-linear-gradient(0deg, #fafafa, #02b7ff);
     -webkit-background-clip: text;
@@ -134,5 +134,5 @@ footer a {
     transition: color 0.3s ease;
 }
 footer a:hover {
-    color: #02b7ff; /* Sky blue hover effect */
+    color: #02b7ff; 
 }

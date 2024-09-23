@@ -6,7 +6,6 @@ const Hero = () => {
     <section id="home" className="hero pt-28 lg:pt-38">
       <div className="container mx-auto px-4 lg:flex lg:items-center lg:justify-between lg:gap-10">
 
-        {/* Left Content - Text and Buttons */}
         <div className="lg:w-1/2">
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
@@ -29,7 +28,6 @@ const Hero = () => {
             Building tomorrow's web today 🌐 Let's collaborate to bring your vision to life ✨
           </h2>
           <div className="flex items-center gap-3">
-            {/* Resume Button */}
             <a 
                href="/documents/Vikram-Gujar-Resume.pdf" 
                download="Vikram-Gujar-Resume.pdf" 
@@ -38,15 +36,15 @@ const Hero = () => {
               <span className="material-symbols-rounded">download</span> 
               Resume
             </a>
-            {/* More About Me Button */}
+            <a href="#about">
             <button className="btn btn-primary flex items-center gap-2">
               <span className="material-symbols-rounded">info</span>
-              More about me...
+              More...
             </button>
+            </a>
           </div>
         </div>
 
-        {/* Right Content - Profile Card */}
         <div className="lg:w-1/2 mt-10 lg:mt-0">
           <ProfileCard />
         </div>
