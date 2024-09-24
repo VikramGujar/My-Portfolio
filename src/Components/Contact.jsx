@@ -25,7 +25,7 @@ const ContactMe = () => {
         
         {/* Left Content - Contact Info */}
         <div className="lg:w-1/2 mb-10 lg:mb-0">
-          <h2 className="text-4xl font-bold text-sky-500 mb-4">Contact me to bring your ideas to life!</h2>
+          <h2 className="text-center text-5xl font-bold mb-8 component-headings">Contact me to bring your ideas to life!</h2>
           <p className="text-lg text-zinc-400 mb-6">
             Reach out today to start building innovative solutions. <br />
             I’m excited to collaborate on your next big idea. <br />

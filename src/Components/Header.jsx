@@ -35,7 +35,10 @@ const Header = () => {
             </div>
             <a 
             href="#contact"
-            className='btn btn-secondary max-md:hidden md:justify-self-end'
+            className='bg-white max-w-max h-9
+            flex items-center gap-2 px-4 rounded-xl font-medium text-sm
+            ring-1 hover:bg-gray-100 text-gray-900 shadow-lg
+            shadow-white-800 max-md:hidden md:justify-self-end'
             >
                 Contact Me
             </a>

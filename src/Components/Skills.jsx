@@ -49,7 +49,7 @@ const Skills = () => {
   return (
     <section id='skills' className="skills py-16 bg-zinc-900">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-sky-500 text-center mb-12">My Skills</h2>
+        <h2 className="text-center text-5xl font-bold mb-8 component-headings">My Skills</h2>
 
         {skillsCategories.map((category, categoryIndex) => (
           <div key={categoryIndex} className="mb-12">

@@ -28,19 +28,20 @@ const Hero = () => {
             Building tomorrow's web today 🌐 Let's collaborate to bring your vision to life ✨
           </h2>
           <div className="flex items-center gap-3">
-            <a 
-               href="/documents/Vikram-Gujar-Resume.pdf" 
-               download="Vikram-Gujar-Resume.pdf" 
-               className="btn btn-secondary flex items-center gap-2"
+            <a
+              href="/documents/Vikram-Gujar-Resume.pdf"
+              download="Vikram-Gujar-Resume.pdf"
+              className="btn btn-secondary flex items-center gap-2"
             >
-              <span className="material-symbols-rounded">download</span> 
+              <span className="material-symbols-rounded">download</span>
               Resume
             </a>
+
             <a href="#about">
-            <button className="btn btn-primary flex items-center gap-2">
-              <span className="material-symbols-rounded">info</span>
-              More...
-            </button>
+              <button className="btn btn-primary flex items-center gap-2">
+                <span className="material-symbols-rounded">info</span>
+                More...
+              </button>
             </a>
           </div>
         </div>
