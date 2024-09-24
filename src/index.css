@@ -57,7 +57,7 @@ body {
 /* Menu btn */
 
 .menu-btn {
-  @apply w-10 h-10
+  @apply w-16 h-10
   grid place-items-center
   bg-zinc-50/10 rounded-xl
   ring-inset ring-1 
@@ -85,14 +85,18 @@ body {
 }
 
 .nav-link {
-  @apply grid items-center
+  @apply grid grid-cols-[auto,1fr] items-center gap-2
     h-9 px-4 text-sm font-medium 
     tracking-wide text-zinc-50/50
     hover:text-zinc-50 transition-colors;
 }
 
+.nav-link.active .material-symbol-rounded {
+  @apply text-sky-500;
+}
+
 .nav-link.active {
-  @apply text-zinc-900 duration-500;
+  @apply text-sky-500;
 }
 
 .navbar .active-box {
