@@ -10,13 +10,13 @@ const Footer = () => {
         <div className="lg:w-1/3 mb-8 lg:mb-0">
           <h3 className="text-3xl font-semibold text-sky-500 mb-6">Let's Connect</h3>
           <div className="flex space-x-6">
-            <a href="https://github.com/VikramGujar" target="_blank" rel="noopener noreferrer" className="group" data-aos="flip-up">
+            <a href="https://github.com/VikramGujar" target="_blank" rel="noopener noreferrer" className="group">
               <FontAwesomeIcon icon={faGithub} size="2x" className="text-white group-hover:text-zinc-300 transition duration-300 transform group-hover:scale-110" />
             </a>
-            <a href="https://www.linkedin.com/in/vikram-gujar-vg/" target="_blank" rel="noopener noreferrer" className="group" data-aos="flip-up">
+            <a href="https://www.linkedin.com/in/vikram-gujar-vg/" target="_blank" rel="noopener noreferrer" className="group">
               <FontAwesomeIcon icon={faLinkedin} size="2x" className="text-white group-hover:text-sky-500 transition duration-300 transform group-hover:scale-110" />
             </a>
-            <a href="https://www.instagram.com/vikram_gujar_vg/" target="_blank" rel="noopener noreferrer" className="group" data-aos="flip-up">
+            <a href="https://www.instagram.com/vikram_gujar_vg/" target="_blank" rel="noopener noreferrer" className="group">
               <FontAwesomeIcon icon={faInstagram} size="2x" className="text-white hover:text-pink-500 transition duration-300 transform group-hover:scale-110" />
             </a>
           </div>
