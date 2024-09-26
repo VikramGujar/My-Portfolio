@@ -74,7 +74,7 @@ const Navbar = ({ navOpen }) => {
           ref={ref}
           className={className}
           onClick={activeCurrentLink}
-          data-aos="zoom-in-down"
+          
         >
           <span className="material-symbols-rounded">{icon}</span>
           {label}
