@@ -60,6 +60,7 @@ const Skills = () => {
                 <div 
                   key={index} 
                   className="flex flex-col items-center text-white p-6 rounded-lg bg-zinc-800 hover:bg-zinc-700 transition transform hover:scale-105 shadow-lg"
+                  data-aos="flip-up"
                 >
                   <div className={`flex items-center justify-center mb-4 ${skill.color} p-4 rounded-full bg-zinc-900`}>
                     {typeof skill.icon === 'function' ? (

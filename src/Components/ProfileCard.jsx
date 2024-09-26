@@ -9,6 +9,8 @@ const ProfileCard = () => {
           src="/images/profile.png"
           alt="profile"
           className="w-40 h-40 rounded-full mx-auto mb-6 object-cover border-4 border-gray-300"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-center"
         />
 
         <h2 className="text-center text-2xl font-bold text-gray-800 mb-2">
@@ -28,8 +30,8 @@ const ProfileCard = () => {
             <FaLinkedin className="w-6 h-6 hover:text-blue-700 hover:scale-110 transition-transform duration-300" />
           </a>
           <a href="https://www.instagram.com/vikram_gujar_vg/" target="_blank" rel="noreferrer">
-        <FaInstagram className="w-6 h-6 relative z-10 transition duration-300 ease-in-out hover:text-pink-500" />
-        </a>
+            <FaInstagram className="w-6 h-6 relative z-10 transition duration-300 ease-in-out hover:text-pink-500" />
+          </a>
 
           <a href="https://twitter.com" target="_blank" rel="noreferrer">
             <FaTwitter className="w-6 h-6 hover:text-blue-400 hover:scale-110 transition-transform duration-300" />

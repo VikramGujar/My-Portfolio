@@ -33,7 +33,9 @@ const Hero = () => {
               download="Vikram-Gujar-Resume.pdf"
               className="btn btn-secondary flex items-center gap-2"
             >
-              <span className="material-symbols-rounded">download</span>
+              <span className="material-symbols-rounded"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">download</span>
               Resume
             </a>
 

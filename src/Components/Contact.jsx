@@ -22,9 +22,11 @@ const ContactMe = () => {
   return (
     <section id="contact" className="contact py-16 bg-zinc-900">
       <div className="container mx-auto px-6 lg:flex lg:items-start lg:justify-between lg:gap-10">
-        
+
         {/* Left Content - Contact Info */}
-        <div className="lg:w-1/2 mb-10 lg:mb-0">
+        <div className="lg:w-1/2 mb-10 lg:mb-0" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
           <h2 className="text-center text-5xl font-bold mb-8 component-headings">Contact me to bring your ideas to life!</h2>
           <p className="text-lg text-zinc-400 mb-6">
             Reach out today to start building innovative solutions. <br />
@@ -38,7 +40,10 @@ const ContactMe = () => {
         </div>
 
         {/* Right Content - Contact Form */}
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2" data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500">
           <h3 className="text-3xl font-semibold text-sky-500 mb-6">I would love to hear your thoughts!</h3>
           <form onSubmit={handleSubmit} className="bg-zinc-800 p-6 rounded-lg">
             <div className="mb-4">

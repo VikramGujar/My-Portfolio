@@ -66,7 +66,7 @@ const Navbar = ({ navOpen }) => {
   ];
 
   return (
-    <nav className={'navbar ' + (navOpen ? 'active' : '')}>
+    <nav className={'navbar ' + (navOpen ? 'active' : '')} data-aos="fade-down">
       {navItems.map(({ label, link, icon, className, ref }, key) => (
         <a
           href={link}
@@ -74,6 +74,7 @@ const Navbar = ({ navOpen }) => {
           ref={ref}
           className={className}
           onClick={activeCurrentLink}
+          data-aos="zoom-in-down"
         >
           <span className="material-symbols-rounded">{icon}</span>
           {label}

@@ -61,6 +61,7 @@ const Projects = () => {
             <article
               key={id}
               className="bg-zinc-700 rounded-xl p-6 shadow-lg hover:shadow-2xl transition-transform duration-300 hover:scale-105"
+              data-aos="zoom-out-up"
             >
               <div className="overflow-hidden rounded-lg mb-4">
                 <div className="rounded-lg overflow-hidden">
