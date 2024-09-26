@@ -66,7 +66,7 @@ const Navbar = ({ navOpen }) => {
   ];
 
   return (
-    <nav className={'navbar ' + (navOpen ? 'active' : '')} data-aos="fade-down">
+    <nav className={'navbar ' + (navOpen ? 'active' : '')}>
       {navItems.map(({ label, link, icon, className, ref }, key) => (
         <a
           href={link}

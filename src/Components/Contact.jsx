@@ -40,10 +40,7 @@ const ContactMe = () => {
         </div>
 
         {/* Right Content - Contact Form */}
-        <div className="lg:w-1/2" data-aos="fade-left"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-duration="500">
+        <div className="lg:w-1/2" data-aos="fade-left">
           <h3 className="text-3xl font-semibold text-sky-500 mb-6">I would love to hear your thoughts!</h3>
           <form onSubmit={handleSubmit} className="bg-zinc-800 p-6 rounded-lg">
             <div className="mb-4">

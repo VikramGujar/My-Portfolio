@@ -9,8 +9,7 @@ const ProfileCard = () => {
           src="/images/profile.png"
           alt="profile"
           className="w-40 h-40 rounded-full mx-auto mb-6 object-cover border-4 border-gray-300"
-          data-aos="fade-up"
-          data-aos-anchor-placement="bottom-center"
+          
         />
 
         <h2 className="text-center text-2xl font-bold text-gray-800 mb-2">
