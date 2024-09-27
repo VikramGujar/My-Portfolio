@@ -17,7 +17,7 @@ const projectData = [
       { icon: faReact, color: '#61dafb', name: 'React' },
       { icon: faPhp, color: '#777bb3', name: 'PHP' },
     ],
-    code: 'https://github.com/project1',
+    code: 'https://github.com/Aoudumber-Bade/ElectronsHUB---College-Major-Project',
     live: 'http://electronshub.lovestoblog.com/',
   },
   {
