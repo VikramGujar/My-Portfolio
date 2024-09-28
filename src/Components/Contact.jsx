@@ -12,17 +12,9 @@ const ContactMe = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission logic here
-    console.log(formData);
-    setFormData({ name: '', email: '', message: '' });
-  };
-
   return (
     <section id="contact" className="contact py-16 bg-zinc-900">
       <div className="container mx-auto px-6 lg:flex lg:items-start lg:justify-between lg:gap-10">
-
         {/* Left Content - Contact Info */}
         <div className="lg:w-1/2 mb-10 lg:mb-0" data-aos="fade-right"
           data-aos-offset="300"
@@ -42,7 +34,12 @@ const ContactMe = () => {
         {/* Right Content - Contact Form */}
         <div className="lg:w-1/2" data-aos="fade-left">
           <h3 className="text-3xl font-semibold text-sky-500 mb-6">I would love to hear your thoughts!</h3>
-          <form onSubmit={handleSubmit} className="bg-zinc-800 p-6 rounded-lg">
+          <form 
+            action="https://getform.io/f/amdpvyeb" 
+            method="POST" 
+            className="bg-zinc-800 p-6 rounded-lg">
+            
+            {/* Name Input */}
             <div className="mb-4">
               <input
                 type="text"
@@ -54,6 +51,8 @@ const ContactMe = () => {
                 className="w-full p-3 bg-zinc-700 text-white rounded-lg focus:outline-none focus:ring focus:ring-sky-500"
               />
             </div>
+
+            {/* Email Input */}
             <div className="mb-4">
               <input
                 type="email"
@@ -65,6 +64,8 @@ const ContactMe = () => {
                 className="w-full p-3 bg-zinc-700 text-white rounded-lg focus:outline-none focus:ring focus:ring-sky-500"
               />
             </div>
+
+            {/* Message Textarea */}
             <div className="mb-4">
               <textarea
                 name="message"
@@ -76,6 +77,11 @@ const ContactMe = () => {
                 className="w-full p-3 bg-zinc-700 text-white rounded-lg focus:outline-none focus:ring focus:ring-sky-500"
               />
             </div>
+
+            {/* Honeypot input to prevent spam */}
+            <input type="hidden" name="_gotcha" style={{ display: 'none' }} />
+
+            {/* Submit Button */}
             <button
               type="submit"
               className="w-full py-3 bg-sky-500 hover:bg-sky-600 text-white font-semibold rounded-lg transition duration-300"

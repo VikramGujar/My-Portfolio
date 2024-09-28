@@ -28,6 +28,7 @@ const App = () =>{
             <div className="bg-zinc-900 text-zinc-50 min-h-screen" data-aos="fade-right">
                 <About />
             </div>
+            {/* <Experience /> */}
             <div data-aos="zoom-in">
             <Skills/>
             </div>
