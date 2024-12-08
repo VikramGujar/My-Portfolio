@@ -3,12 +3,12 @@ import React from 'react';
 const Experience = () => {
   return (
     <section id="experience" className="py-12">
-      {/* Heading */}
+      
       <div className="container mx-auto text-center">
         <h2 className="component-headings text-3xl md:text-4xl mb-8">Experience</h2>
       </div>
 
-      {/* Experience Card */}
+      
       <div className="container mx-auto bg-zinc-800 p-6 rounded-xl shadow-lg">
         <h3 className="text-2xl font-semibold mb-2 text-sky-500">Web Development Intern</h3>
         <h4 className="text-xl text-zinc-50 font-medium mb-2">NullClass Technology</h4>
