@@ -86,13 +86,16 @@ The site will be available at `http://localhost:3000`.
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing Page](https://via.placeholder.com/800x400?text=Landing+Page+Screenshot)
+![Landing Page](./public/images/home.png)
+
+### About Section
+![ About Section ](./public/images/about.png)
 
 ### Projects Section
-![Projects Section](https://via.placeholder.com/800x400?text=Projects+Section+Screenshot)
+![Projects Section](./public/images/project.png)
 
 ### Contact Form
-![Contact Form](https://via.placeholder.com/800x400?text=Contact+Form+Screenshot)
+![Contact Form](./public/images/contact.png)
 
 ---
 
