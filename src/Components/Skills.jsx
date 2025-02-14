@@ -1,7 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJava, faHtml5, faCss3Alt, faJsSquare, faReact, faNodeJs, faGitAlt, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { SiC, SiCplusplus, SiMongodb, SiOracle, SiPostman, SiExpress } from 'react-icons/si';
+import { 
+  faJava, faHtml5, faCss3Alt, faJsSquare, 
+  faReact, faGitAlt
+} from '@fortawesome/free-brands-svg-icons';
+import { 
+  SiC, SiCplusplus, SiMongodb, SiOracle, 
+  SiPostman, SiSpring, SiSpringboot, SiHibernate, SiEclipseide, SiVisualstudiocode
+} from 'react-icons/si';
 
 const skillsCategories = [
   {
@@ -10,22 +16,28 @@ const skillsCategories = [
       { name: 'C', icon: SiC, color: 'text-blue-500' },
       { name: 'C++', icon: SiCplusplus, color: 'text-blue-600' },
       { name: 'Java', icon: faJava, color: 'text-red-500' },
-    ],
-  },
-  {
-    title: 'Front-end Development',
-    skills: [
-      { name: 'HTML', icon: faHtml5, color: 'text-orange-600' },
-      { name: 'CSS', icon: faCss3Alt, color: 'text-blue-600' },
       { name: 'JavaScript', icon: faJsSquare, color: 'text-yellow-500' },
-      { name: 'React', icon: faReact, color: 'text-sky-500' },
     ],
   },
   {
-    title: 'Back-end Development',
+    title: 'Web Technologies',
     skills: [
-      { name: 'Node.js', icon: faNodeJs, color: 'text-green-600' },
-      { name: 'Express', icon: SiExpress, color: 'text-gray-500' },
+      { name: 'HTML5', icon: faHtml5, color: 'text-orange-600' },
+      { name: 'CSS3', icon: faCss3Alt, color: 'text-blue-600' },
+      { name: 'JSON', icon: null, color: 'text-gray-500' },
+      { name: 'JSP', icon: null, color: 'text-gray-500' },
+      { name: 'Servlet', icon: null, color: 'text-gray-500' },
+      { name: 'XML', icon: null, color: 'text-gray-500' },
+      { name: 'RESTful APIs', icon: null, color: 'text-gray-500' },
+      { name: 'React.js', icon: faReact, color: 'text-sky-500' },
+    ],
+  },
+  {
+    title: 'Frameworks',
+    skills: [
+      { name: 'Spring', icon: SiSpring, color: 'text-green-600' },
+      { name: 'Spring Boot', icon: SiSpringboot, color: 'text-green-500' },
+      { name: 'Hibernate', icon: SiHibernate, color: 'text-gray-600' },
     ],
   },
   {
@@ -36,14 +48,17 @@ const skillsCategories = [
     ],
   },
   {
-    title: 'Version Control & Tools',
+    title: 'Tools & Platforms',
     skills: [
+      { name: 'Maven', icon: null, color: 'text-red-600' },
       { name: 'Git', icon: faGitAlt, color: 'text-red-600' },
-      { name: 'GitHub', icon: faGithub, color: 'text-white-900' },
+      { name: 'Eclipse IDE', icon: SiEclipseide, color: 'text-indigo-500' },
+      { name: 'Visual Studio Code', icon: SiVisualstudiocode, color: 'text-blue-400' },
       { name: 'Postman', icon: SiPostman, color: 'text-orange-500' },
     ],
   },
 ];
+
 
 const Skills = () => {
   return (
